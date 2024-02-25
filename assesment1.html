@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<link rel="icon" type="image/x-icon." href="icon.png">
+    <link rel="stylesheet" href="assesmentcss.css">
+<body>
+    
+</body>
+<h1>Student Registaration Form</h1>
+        <div class="container">
+            <div>
+                <div>
+                    <label for="fname">First Name:</label>
+                </div>
+                <div>
+                    <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                </div>
+                <div>
+                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="email">Email:</label>
+                </div>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="it should contain @,.">
+                </div>
+            </div>
+            <div>
+                
+                    <label for="mobile">Mobile:</label>
+                </div>
+                <div>
+                    <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="gender" required>Gender:</label>
+                </div>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male"/>Male
+                    <input type="radio" id="female" name="gender" value="female"/>Female
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="dob">Date Of Birth:</label>
+                </div>
+                <div>
+                    <input type="Date" id="dob" name="dob">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="address">Address:</label>
+                </div>
+                <div>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="city">City:</label>
+                </div>
+                <div>
+                    <input type="text" id="city" name="city" maxlength="10">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="pincode">Area PIN:</label>
+                </div>
+                <div>
+                    <input type="number" id="pin" name="pin" maxlength="6">
+                </div>
+            </div>
+            
+                <div>
+                    <label for="state">State:</label>
+                </div>
+                <div>
+                    <input type="text" id="state" name="state">
+                </div>
+            </div>
+            
+                <div>
+                    <label for="qualification" required >Qualification:</label>
+                </div>
+                <div>
+                    <select name="qualification" id="qualification">
+                        <option value=" ">Select Qualification:</option>
+                        <option value="Graduation">Graduation</option>
+                        <option value="BTech.">BTech.</option>
+                        <option value="MTech.">MTech.</option>
+                        <option value="MCA">MCA</option>
+                        <option value="BCA">BCA</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+               
+                    <label for="specialization">Specialization:</label>
+                </div>
+                <div>
+                    <input type="checkbox" class="specialization" id="cs" name="specialization[]" value="Computer Science">Computer Science<br/>
+                    <input type="checkbox" class="specialization" id="it" name="specialization[]" value="Information Technology">Information Technology<br/>
+                    <input type="checkbox" class="specialization" id="ca" name="specialization[]" value="Computer Architecture">Computer Architecture<br/>
+                    <input type="checkbox" class="specialization" id="tc" name="specialization[]" value="Tele Communication">Tele Communication<br/>
+                </div>
+            </div>
+            
+                <div>
+                    <label for="password">Password:</label>
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" maxlength="8">
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Registered">
+            </div>  
+        </div>  
+    </body>
+
+</html>
